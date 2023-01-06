@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "hello world"
+        run: |
+          echo "hello world"
+          echo "world, hello"
       - name: Print Goodbye
         run: echo "done bye"
